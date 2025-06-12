@@ -1,17 +1,15 @@
 {
   "name": "pluck",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "main": "./dist/pluck.umd.cjs",
-  "module": "./dist/pluck.js",
+  "main": "./dist/index.js",
   "exports": {
-    ".": {
-      "import": "./dist/pluck.js",
-      "require": "./dist/pluck.umd.cjs"
-    }
+    ".": "./dist/index.js",
+    "./log": "./dist/log.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",

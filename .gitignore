@@ -1,1 +1,10 @@
+# Ignore all node_modules recursively
 node_modules/
+
+# Optional: ignore log and temp files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+dist/
+.DS_Store

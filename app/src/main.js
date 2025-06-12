@@ -1,5 +1,6 @@
 // sample usage of pluck library
 import { pluckValues } from "pluck";
+import { log } from "pluck/log";
 const people = [
   { name: "Alice", age: 28 },
   { name: "Bob", age: 34 },
@@ -12,4 +13,4 @@ const people = [
   { name: "Ian", age: 24 },
   { name: "Julia", age: 29 },
 ];
-console.log(pluckValues(people, "age"));
+log(pluckValues(people, "age"));

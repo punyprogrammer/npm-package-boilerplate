@@ -12,6 +12,6 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "pluck": "file:../lib/pluck-0.0.0.tgz"
+    "pluck": "file:../lib/pluck-1.0.0.tgz"
   }
 }
