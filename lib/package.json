@@ -1,6 +1,7 @@
 {
-  "name": "pluck",
+  "name": "@amardeepganguly/pluck",
   "version": "1.0.0",
+  "description": "A sample npm package ",
   "type": "module",
   "main": "./dist/index.js",
   "exports": {
@@ -8,14 +9,34 @@
     "./log": "./dist/log.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "utility",
+    "helper",
+    "add-relevant-keywords"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pluck.git"
+  },
+  "homepage": "https://github.com/yourusername/pluck#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/pluck/issues"
   },
   "devDependencies": {
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
   }
 }
